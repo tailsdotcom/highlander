@@ -20,6 +20,7 @@ highlander:
 ```yaml
 # CI Steps
 - service: highlander
+  command: highlander
   tag: (^staging$|^prod$)
 # CD Steps
 ```
